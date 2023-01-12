@@ -1,8 +1,9 @@
 html,
 body {
-   max-width: 100%;
    overflow-x: hidden;
    background-color: #f9fbfe;
+   min-width: 1000px;
+   min-height: 1000px;
 }
 ::-webkit-scrollbar {
    display: none;
@@ -10,15 +11,16 @@ body {
 .navbar {
    height: 50px;
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    background: #020e4a 0% 0% no-repeat padding-box;
    opacity: 1;
-   text-align: center;
+   min-width: 1000px;
 }
+
 .navbar-nav > a {
-   margin-left: 30px;
-   margin-right: 30px;
+   margin: 30px;
 }
+
 .navbar.second-navbar {
    top: 50px;
    height: 90px;
@@ -115,42 +117,41 @@ lottie-player {
 
 .uppp {
    display: flex;
-
 }
-.sss > span{
-    margin-right:20px;
-    margin-bottom: 20px;
-    margin-top:20px;
-    font-size: medium;
+.sss > span {
+   margin-right: 20px;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   font-size: medium;
    background: transparent;
 }
-.sss{
-    border:none;
-    cursor: pointer;
+.sss {
+   border: none;
+   cursor: pointer;
 }
 .sss span {
-    border: none; /* Prevent double borders */
-  }
-  
-  /* Clear floats (clearfix hack) */
-  .sss:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Add a background color on hover */
-  .sss span:hover {
-      border-bottom: 5px solid blue ;
-      border-radius: 5px;
-      font-weight: 700;
-      
-  }
-.card1:hover{
-    border-color:5px solid #45E676;
+   border: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.sss:after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+/* Add a background color on hover */
+.sss span:hover {
+   border-bottom: 5px solid blue;
+   border-radius: 5px;
+   font-weight: 700;
+}
+.card1:hover {
+   border-color: 5px solid #45e676;
 }
 
 .footer {
+    min-width: 1000px;
    background-color: #020e4a;
    position: relative;
    top: 850px;
