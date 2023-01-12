@@ -1,0 +1,157 @@
+html,
+body {
+   max-width: 100%;
+   overflow-x: hidden;
+   background-color: #f9fbfe;
+}
+::-webkit-scrollbar {
+   display: none;
+}
+.navbar {
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   background: #020e4a 0% 0% no-repeat padding-box;
+   opacity: 1;
+   text-align: center;
+}
+.navbar-nav > a {
+   margin-left: 30px;
+   margin-right: 30px;
+}
+.navbar.second-navbar {
+   top: 50px;
+   height: 90px;
+   /* UI Properties */
+   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+   background: #ffffff 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 6px #00000029;
+   opacity: 1;
+   font-size: 25px;
+   margin-bottom: 1px;
+}
+
+.bbutton {
+   background: #0d6efd 0% 0% no-repeat padding-box;
+   border-radius: 5px;
+   border: none;
+   opacity: 1;
+   width: 200px;
+   height: 50px;
+   color: white;
+   margin-left: 30px;
+}
+.navbar-nav > li {
+   padding-left: 20px;
+   font-weight: 600;
+   font-size: large;
+}
+#topthankyou {
+   position: relative;
+   top: 140px;
+   height: 20px;
+   background: transparent 0% 0% no-repeat padding-box;
+   opacity: 1;
+   justify-content: center;
+}
+#innerthank {
+   top: 110px;
+   left: 300px;
+   right: 300px;
+   position: absolute;
+   height: 380px;
+   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+   background: #ffffff 0% 0% no-repeat padding-box;
+   box-shadow: 0px 3px 20px #00000029;
+   border-radius: 5px;
+   opacity: 1;
+
+   text-align: center;
+}
+lottie-player {
+   margin: 0 auto;
+}
+#lbottom {
+   margin-bottom: 20px;
+   padding-left: 40px;
+   padding-right: 40px;
+}
+#lbottom > h1 {
+   font-weight: 700;
+}
+
+#Recently {
+   padding-top: 30px;
+   position: relative;
+   top: 650px;
+   height: 400px;
+   justify-content: center;
+   background-color: #f9fbfe;
+}
+#Recently > h2 {
+   margin-left: 100px;
+}
+.owl-carousel {
+   height: 200px;
+   border: none;
+}
+
+.bg-pback {
+   position: absolute;
+   padding-top: 41px;
+   left: 0;
+   right: 0;
+   z-index: 1;
+}
+.bg-ptop {
+   left: 0;
+   right: 0;
+   z-index: 2;
+}
+.card-block {
+   z-index: 1;
+   padding-top: 50px;
+}
+
+.uppp {
+   display: flex;
+
+}
+.sss > span{
+    margin-right:20px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    font-size: medium;
+   background: transparent;
+}
+.sss{
+    border:none;
+    cursor: pointer;
+}
+.sss span {
+    border: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .sss:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Add a background color on hover */
+  .sss span:hover {
+      border-bottom: 5px solid blue ;
+      border-radius: 5px;
+      font-weight: 700;
+      
+  }
+.card1:hover{
+    border-color:5px solid #45E676;
+}
+
+.footer {
+   background-color: #020e4a;
+   position: relative;
+   top: 850px;
+}
